@@ -1,10 +1,4 @@
-/*
 
-Neaty HTML Template
-
-http://www.templatemo.com/tm-501-neaty
-
-*/
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -141,7 +135,7 @@ textarea:-ms-input-placeholder {
 .tm-contact-right {	padding-left: 15px; }
 .tm-copyright-p { margin-bottom: 0; }
 
-/* Media Queries */
+
 @media (min-width: 576px) {
 	.container { width: 100%; }
 	.tm-site-name { margin-top: 35px; }
