@@ -70,7 +70,9 @@ p { line-height: 2; }
 	padding: 18px 35px;
 }
 
-.tm-button-wide { padding: 8px 10px; }
+.tm-button-wide { padding: 8px 10px; 
+margin: 4px;
+}
 
 .tm-button:hover,
 .tm-button:active,
