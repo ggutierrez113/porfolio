@@ -17,6 +17,7 @@ p{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;;
 }
 
+
 a, button { transition: all 0.3s ease; }
 a:hover,
 a:focus {
@@ -69,7 +70,7 @@ p { line-height: 2; }
 	padding: 18px 35px;
 }
 
-.tm-button-wide { padding: 18px 40px; }
+.tm-button-wide { padding: 8px 10px; }
 
 .tm-button:hover,
 .tm-button:active,
@@ -126,10 +127,10 @@ p { line-height: 2; }
 	height: 300px;
 	border: black solid 2px;
 	border-radius: 5px;		
+	max-width: 100%;
 }
 .doggie:hover{
-	-webkit-filter: blur(4px); 
-    filter: blur(4px);
+	transform: scale(1.1);	
 }
 
 
@@ -172,6 +173,8 @@ p { line-height: 2; }
 	.tm-right-column {
 		float: right;
 		width: 70%;
+		margin: 0px;
+		
 	}
 
 	.tm-nav-item {
