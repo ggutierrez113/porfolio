@@ -32,7 +32,8 @@ a:focus {
 
 .tm-blue-text {	color: #006599;
 font-size: 40px; }
-.tm-blue-bg a {	color: #006599; }
+.tm-blue-bg a {	color: #4863FF;
+font-size: 30px; }
 
 .tm-site-name {
 	font-size: 4rem;
@@ -49,6 +50,7 @@ font-size: 40px; }
 .tm-main-nav-ul {
 	display: inline-block;
 	padding-left: 0;
+
 }
 
 .tm-section { margin-bottom: 60px; }
@@ -86,6 +88,8 @@ margin: 4px;
 .tm-nav-item:focus a,
 .tm-nav-item-link.active {
 	color: #f4ef5e;
+	font-size: 30px;
+
 }
 
 .tm-about-img-container { margin-top: 50px; }
@@ -175,7 +179,7 @@ margin: 4px;
 	.tm-right-column {
 		float: right;
 		width: 70%;
-		margin: 0px;
+		
 		
 	}
 
@@ -185,6 +189,7 @@ margin: 4px;
 		list-style: none;
 		padding: 18px 30px;
 		transition: all 0.3s ease;
+		
 	}
 
 	.tm-site-name {
@@ -197,7 +202,7 @@ margin: 4px;
 	    padding-bottom: 50px;
 	}
 
-	.tm-section { margin-bottom: 100px; }
+	.tm-section { margin-bottom: 0px; }
 
 	.tm-content-div { padding: 80px 40px 30px 80px;	}
 
